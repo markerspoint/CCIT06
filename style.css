@@ -1,6 +1,6 @@
 #banner {
     height: 90vh;
-    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(isangKaibigan.jpg);
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(PageCover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -15,14 +15,14 @@
 }
 
 .btn-brand {
-    background-color: red;
-    color: #fff;
-    border: 2px solid white;
+    background-color: rgb(95, 143, 214);
+    color: #f9f9fa;
+    border: 2px solid rgb(243, 243, 243);
 }
 
 .btn-brand-hover {
     background-color: transparent;
-    color: #fff;
+    color: #0a0a0a;
     border: 2px solid #fff;
 }
 
@@ -31,11 +31,21 @@ section {
 }
 
 #about {
-    background-color: rgb(34, 12, 12);
+    background-color: rgb(255, 255, 255);
 }
 
 #about .btn-brand {
-    background-color: black !important;
+    background-color: rgb(241, 241, 241) !important;
+}
+
+#about .btn-brand {
+    background-color: rgb(128, 186, 252) !important; 
+}
+
+#about .row {
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.20);
 }
 
 #about h2 {
@@ -78,3 +88,12 @@ section {
 .card:hover .btn {
     color: floralwhite;
 }
+
+#cta {
+    height: 70vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(cta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
