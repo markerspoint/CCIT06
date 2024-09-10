@@ -61,3 +61,20 @@ section {
 #services {
     background-color: rgb(190, 141, 141);
 }
+
+.card {
+    transition: background-color 0.3s, color 0.3s;
+    border: 5px solid var(--border); /* border style */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+.card:hover {
+    background-color: black;
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: floralwhite;
+}
