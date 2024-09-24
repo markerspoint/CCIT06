@@ -43,7 +43,7 @@ section {
 }
 
 #about .row {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(105, 180, 241);
     padding: 50px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.20);
 }
@@ -97,3 +97,25 @@ section {
     background-attachment: fixed;
 }
 
+.testimonials {
+    padding: 30px;
+    border: 2px solid red;
+    border-radius: 30px;
+}
+
+.testimonials {
+    width: 65;
+    border-radius: 100px;
+}
+
+.testimonials {
+    color: red;
+}
+
+#reviews h2 {
+    font-size: 55px;
+    font-weight: 900;
+    color: red;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
