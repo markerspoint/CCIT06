@@ -6,6 +6,11 @@
     background-attachment: fixed;
 }
 
+h1, h2, h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    letter-spacing: 3px;
+}
+
 .btn {
     padding: 15px 30px;
     font-weight: 900;
@@ -51,11 +56,11 @@ section {
 #about h2 {
     font-size: 50px;
     font-weight: 800;
-    color: orange;
+    color: rgb(235, 108, 4);
 }
 
 #about h3 {
-    color: yellow;
+    color: rgb(238, 241, 9);
 }
 
 .eyy {
@@ -65,7 +70,7 @@ section {
 #services h2 {
     font-size: 50px;
     font-weight: 800;
-    color: orange;
+    color: rgb(247, 143, 8);
 }
 
 #services {
@@ -97,18 +102,20 @@ section {
     background-attachment: fixed;
 }
 
+
+
 .testimonials {
     padding: 30px;
     border: 2px solid red;
     border-radius: 30px;
 }
 
-.testimonials {
-    width: 65;
+.testimonials img {
+    width: 65px;
     border-radius: 100px;
 }
 
-.testimonials {
+.testimonials a {
     color: red;
 }
 
@@ -117,5 +124,5 @@ section {
     font-weight: 900;
     color: red;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: rgb(8, 8, 8);
 }
