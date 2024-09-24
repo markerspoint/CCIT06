@@ -36,7 +36,7 @@ section {
 }
 
 #about {
-    background-color: rgb(255, 255, 255);
+    background-color: #C9EBF2;
 }
 
 #about .btn-brand {
@@ -44,11 +44,11 @@ section {
 }
 
 #about .btn-brand {
-    background-color: rgb(128, 186, 252) !important; 
+    background-color: #91C4D9 !important; 
 }
 
 #about .row {
-    background-color: rgb(105, 180, 241);
+    background-color: #91C4D9;
     padding: 50px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.20);
 }
@@ -56,11 +56,11 @@ section {
 #about h2 {
     font-size: 50px;
     font-weight: 800;
-    color: rgb(235, 108, 4);
+    color: #1F2E58;
 }
 
 #about h3 {
-    color: rgb(238, 241, 9);
+    color: #C9EBF2;
 }
 
 .eyy {
@@ -70,11 +70,11 @@ section {
 #services h2 {
     font-size: 50px;
     font-weight: 800;
-    color: rgb(247, 143, 8);
+    color: whitesmoke;
 }
 
 #services {
-    background-color: rgb(190, 141, 141);
+    background-color:#314888;
 }
 
 .card {
@@ -84,8 +84,10 @@ section {
     border-radius: 30px;
 }
 
+
+
 .card:hover {
-    background-color: black;
+    background-color: #C9EBF2;
 }
 
 .card:hover .card-title,
